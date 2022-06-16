@@ -8,8 +8,9 @@
 
 
 #memory-menu {
-    background-image: url('./images/zz_Header.png');
+    background-image: url('./images/zz.Menu.png');
     background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     position: absolute;
     width: 100vw;
@@ -22,7 +23,9 @@
 #memory-board {
     height: 100vh;
     width: 100vw;
-    background: #FFE6D7;
+    background-image: url('./images/zz-board.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -32,7 +35,9 @@
 }
 
 #memory-game-over {
-    background-color: black;
+    background-image: url('./images/zz-Gameover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     position: absolute;
     width: 100vw;
@@ -43,7 +48,9 @@
 }
 
 #memory-game-won {
-    background-color: black;
+    background-image: url('./images/zz-Youwin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     position: absolute;
     width: 100vw;
@@ -119,9 +126,9 @@ h1{
     flex-direction: column;
     display: flex;
     height: 100vh;
+    margin-top: 150px;
 }
 
-/* CSS */
 .button-1 {
     background-color: #EA4C89;
     border-radius: 8px;
